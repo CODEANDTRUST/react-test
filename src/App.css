@@ -1,0 +1,108 @@
+@font-face {
+  font-family: playBold;
+  src: url(./fonts/Play-Bold.ttf);
+}
+@font-face {
+  font-family: playRegular;
+  src: url(./fonts/Play-Regular.ttf);
+} 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #14324c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body{
+  background-color: #14324c;
+  min-height: fit-content;
+}
+
+.App-footer{
+  margin: 30px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.container-image{
+  background-color: white;
+  border-radius: 150px;
+  align-items: center;
+  display: contents;
+  height: 115px;
+  width: 115px;
+}
+.profile{
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+.menu-profile{
+  height: 200px;
+  width: 400px;
+}
+
+.numberCircle {
+  width: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+  background-color: #61dafb;
+  color: white;
+}
+
+h2{
+  font-family: playBold;
+}
+
+.textField{
+  font-family: playRegular;
+  color: white;
+}
